@@ -6,7 +6,8 @@ import SearchResults from '../pages/SearchResults';
 import Categories from '../pages/Categories';
 import Contact from '../pages/Contact';
 import About from '../pages/About';
-import Recipe from '../pages/Recipe';
+import Recipes from '../pages/Recipes';
+import SearchBar from './SearchBar';
 
 const NavBar = () => {
   return (
@@ -17,25 +18,20 @@ const NavBar = () => {
           <Link to='/'>Open The Pantry</Link>
         </MDBNavbarBrand>
         <MDBNavbarNav right>
-          <MDBNavItem active>
-            <Link className='link' to='/categories'>
-              Categories
-            </Link>
+          <MDBNavItem className='link' active>
+            <Link to='/categories'>Categories</Link>
+          </MDBNavItem>
+          <MDBNavItem className='link'>
+            <Link to='/about'>About</Link>
+          </MDBNavItem>
+          <MDBNavItem className='link'>
+            <Link to='/recipes'>Recipes</Link>
+          </MDBNavItem>
+          <MDBNavItem className='link'>
+            <Link to='/contact'>Contact</Link>
           </MDBNavItem>
           <MDBNavItem>
-            <Link className='link' to='/about'>
-              About
-            </Link>
-          </MDBNavItem>
-          <MDBNavItem>
-            <Link className='link' to='/recipe'>
-              Recipe
-            </Link>
-          </MDBNavItem>
-          <MDBNavItem>
-            <Link className='link' to='/contact'>
-              Contact
-            </Link>
+            <SearchBar />
           </MDBNavItem>
         </MDBNavbarNav>
       </MDBNavbar>
@@ -52,8 +48,8 @@ const NavBar = () => {
         <Route path='/about'>
           <About />
         </Route>
-        <Route path='/recipe'>
-          <Recipe />
+        <Route path='/recipes'>
+          <Recipes />
         </Route>
         <Route path='/contact'>
           <Contact />
