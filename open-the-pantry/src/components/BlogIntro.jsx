@@ -1,3 +1,5 @@
+import InstagramFollowing from './InstagramFollowing';
+
 const BlogIntro = () => {
   return (
     <div className='d-flex my-5'>
@@ -9,7 +11,7 @@ const BlogIntro = () => {
         />
       </div>
       <div className='col-6'>
-        <h1>My Name is Sirena!</h1>
+        <h1 className='py-3'>My Name is Sirena!</h1>
         <p>Wondering what you can make with the ingredients in your pantry?</p>
         <p>
           I am Sirena and welcome to Open the Pantry. I am an ordinary mum who
@@ -17,6 +19,7 @@ const BlogIntro = () => {
           hope to share with you all aesthetic recipes from my kitchen!
         </p>
         <p>Let’s Open your Pantry!</p>
+        <InstagramFollowing />
       </div>
     </div>
   );
