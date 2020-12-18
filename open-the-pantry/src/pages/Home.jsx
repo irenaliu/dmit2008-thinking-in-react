@@ -1,7 +1,13 @@
+import BlogIntro from '../components/BlogIntro';
+import MainHeader from '../components/MainHeader';
+
 const Home = () => {
   return (
     <div>
-      <h1 className='my-5'>Home Page</h1>
+      <MainHeader />
+      <div className='container'>
+        <BlogIntro />
+      </div>
     </div>
   );
 };
