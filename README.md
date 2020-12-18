@@ -32,7 +32,7 @@ Thinking about how the concepts of the React library can be applied to create a 
 - BlogIntro (yellow)
   - Contains an introduction to the blog with a picture, title and a description
 - MainHeader (mauve)
-  - Contains a video that stretches across the width of the site
+  - Contains a image that stretches across the width of the site that has a parallax effect
 - MainFooter (brown)
   - Contains the brand to go back to the landing page, social media links and a way to navigate to the contact form
 - SearchBar (red)
@@ -63,6 +63,10 @@ Thinking about how the concepts of the React library can be applied to create a 
 ## Potential Required Packages/Libraries/Components
 
 [React Instagram Embed](https://www.npmjs.com/package/react-instagram-embed)
+
+[Jarallax - To implement parallax with MDBParallaxWrapper](https://www.npmjs.com/package/jarallax)
+
+[MDBParallaxWrapper component](https://mdbootstrap.com/docs/react/css/parallax/)
 
 ## References
 
