@@ -25,7 +25,7 @@ Thinking about how the concepts of the React library can be applied to create a 
   - Contains the creator's following count on instagram and a call to action to follow the creator
 - RecipeCategoryList (not shown in mocks, would appear on Recipes page)
   - Contains a list of RecipeCategory components
-- RecipeCategory (magenta)
+- RecipeCategory (purple)
   - Contains a list of recipes in a specific recipe category
 - RecipeOverview (green)
   - Contains a short overview of the recipe with an image, title and date
@@ -43,6 +43,7 @@ Thinking about how the concepts of the React library can be applied to create a 
 - NavBar
   - SearchBar
 - MainHeader
+- InstagramFollowing
 - RecipeCategoryList
   - RecipeCategory
     - RecipeOverview
