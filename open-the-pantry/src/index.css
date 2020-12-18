@@ -40,3 +40,17 @@ code {
   width: 100%;
   object-fit: cover;
 }
+
+.recipe-overview {
+  height: 460px;
+}
+
+.recipe-overview-img-container {
+  height: 400px;
+}
+
+.recipe-overview-img {
+  height: 90%;
+  width: 95%;
+  object-fit: cover;
+}
