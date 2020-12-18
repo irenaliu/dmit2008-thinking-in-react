@@ -20,14 +20,23 @@ Thinking about how the concepts of the React library can be applied to create a 
 ### Components
 
 - Navbar (black)
+  - Contains the main navigation links and the searchbar
 - InstagramFollowing (blue)
+  - Contains followers count on instagram and a call to action to follow the creator
 - RecipeCategoryList
+  - Contains a list of RecipeCategory components
 - RecipeCategory (magenta)
+  - Contains a list of recipes in a specific recipe category
 - RecipeOverview (green)
+  - Contains a short overview of the recipe with an image, title and date
 - BlogIntro (yellow)
+  - Contains an introduction to the blog with a picture, title and a description
 - FooterBanner (mauve)
+  - Contains a video that stretches across the width of the site
 - MainFooter (brown)
+  - Contains the brand to go back to the landing page, social media links and a way to navigate to the contact form
 - Searchbar
+  - Contains a search bar to enter in a text string
 
 ### Pages
 
