@@ -20,10 +20,10 @@ Thinking about how the concepts of the React library can be applied to create a 
 ### Components
 
 - NavBar (black)
-  - Contains the main navigation links and the searchbar
+  - Contains the main navigation links and the search bar
 - InstagramFollowing (blue)
   - Contains the creator's following count on instagram and a call to action to follow the creator
-- RecipeCategoryList
+- RecipeCategoryList (not shown in mocks, would appear on Recipes page)
   - Contains a list of RecipeCategory components
 - RecipeCategory (magenta)
   - Contains a list of recipes in a specific recipe category
@@ -35,7 +35,7 @@ Thinking about how the concepts of the React library can be applied to create a 
   - Contains a video that stretches across the width of the site
 - MainFooter (brown)
   - Contains the brand to go back to the landing page, social media links and a way to navigate to the contact form
-- SearchBar
+- SearchBar (red)
   - Contains a search bar to enter in a text string
 
 ### Component Hierarchy
