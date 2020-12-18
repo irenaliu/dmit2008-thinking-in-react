@@ -12,6 +12,30 @@ code {
     monospace;
 }
 
+.container {
+  max-width: 1100px;
+}
+
 .link {
   margin-right: 1rem;
+}
+
+.cover-img-container {
+  height: 400px;
+}
+
+.cover-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog-intro-img-container {
+  height: 400px;
+}
+
+.blog-intro-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
