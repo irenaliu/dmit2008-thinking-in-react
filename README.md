@@ -25,6 +25,7 @@ The following images are screenshots taken from the actual live website which I 
   - Contains the main navigation links and the search bar
 - InstagramFollowing (blue)
   - Contains the creator's following count on instagram and a call to action to follow the creator
+  - Separated it out as it's own component because I wasn't sure if it would be complicated to get the creator followers count
 - RecipeCategoryList (not shown in mocks, would appear on Recipes page)
   - Contains a list of RecipeCategory components
 - RecipeCategory (purple)
@@ -45,11 +46,11 @@ The following images are screenshots taken from the actual live website which I 
 - NavBar
   - SearchBar
 - MainHeader
-- InstagramFollowing
+- Blog Intro
+  - InstagramFollowing
 - RecipeCategoryList
   - RecipeCategory
     - RecipeOverview
-- Blog Intro
 - MainFooter
 
 ### Pages
