@@ -15,20 +15,30 @@ const NavBar = () => {
       {/* Navigation */}
       <MDBNavbar color='deep-orange lighten-4' expand='md'>
         <MDBNavbarBrand>
-          <Link to='/'>Open The Pantry</Link>
+          <Link to='/' className='black-text'>
+            Open The Pantry
+          </Link>
         </MDBNavbarBrand>
         <MDBNavbarNav right>
           <MDBNavItem className='link' active>
-            <Link to='/categories'>Categories</Link>
+            <Link to='/categories' className='black-text'>
+              Categories
+            </Link>
           </MDBNavItem>
           <MDBNavItem className='link'>
-            <Link to='/about'>About</Link>
+            <Link to='/about' className='black-text'>
+              About
+            </Link>
           </MDBNavItem>
           <MDBNavItem className='link'>
-            <Link to='/recipes'>Recipes</Link>
+            <Link to='/recipes' className='black-text'>
+              Recipes
+            </Link>
           </MDBNavItem>
           <MDBNavItem className='link'>
-            <Link to='/contact'>Contact</Link>
+            <Link to='/contact' className='black-text'>
+              Contact
+            </Link>
           </MDBNavItem>
           <MDBNavItem>
             <SearchBar />
