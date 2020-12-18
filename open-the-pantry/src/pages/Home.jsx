@@ -8,6 +8,7 @@ const Home = () => {
       <MainHeader />
       <div className='container'>
         <BlogIntro />
+        <hr />
         <RecipeCategoryList />
       </div>
     </div>

@@ -23,6 +23,8 @@ code {
 
 .cover-img-container {
   height: 400px;
+  border-top: solid 2px grey;
+  border-bottom: solid 2px grey;
 }
 
 .cover-img {
