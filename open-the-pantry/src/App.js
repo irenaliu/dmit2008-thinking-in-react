@@ -1,12 +1,14 @@
 import MainFooter from './components/MainFooter';
 import NavBar from './components/NavBar';
 
+import AppStore from './store/AppStore.js';
+
 const App = () => {
   return (
-    <div>
+    <AppStore>
       <NavBar />
       <MainFooter />
-    </div>
+    </AppStore>
   );
 };
 
