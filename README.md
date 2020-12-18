@@ -14,7 +14,7 @@ Thinking about how the concepts of the React library can be applied to create a 
 
 ## Component Hierarchy / Pages
 
-The following images are screenshots taken from the actual live website which I do not own. In my static mockup version of this app, I have chosen to focus on the main landing page for this study.
+The following images are screenshots taken from the actual live website which I do not own. In my static mockup version of this app, I have chosen to focus on the main landing page for this study. In the demo app, you will find that I have moved around some parts slightly.
 
 ![Blog landing page (top)](/mockups/home.jpg)
 ![Blog landing page (bottom)](/mockups/footer.jpg)
@@ -66,6 +66,8 @@ The following images are screenshots taken from the actual live website which I 
 
 For this blog site, the only piece of data that would likely need to be stateful is the recipe data that is returned in a recipe search. The state should live in the global app store so that it is easiest to grab the filtered data to render RecipeOverview cards when the user is redirected to the SearchResults page.
 
+It may also be useful to store the collections of recipes in the state depending on how many times the data is being pulled from the API. From what I can see, there are 4 pages that will need the recipeCategoryCollections data.
+
 ## Potential Required Packages/Libraries/Components
 
 [React Instagram Embed](https://www.npmjs.com/package/react-instagram-embed)
@@ -79,5 +81,7 @@ For this blog site, the only piece of data that would likely need to be stateful
 [Thinking in React Guide](https://reactjs.org/docs/thinking-in-react.html)
 
 [Open The Pantry Food Blog](https://www.openthepantry.co.nz/)
+
+[Open The Pantry Facebook Page (for some images)](https://www.facebook.com/openthepantry)
 
 [Airbnb React/JSX Style Guide](https://airbnb.io/javascript/react/#naming)
