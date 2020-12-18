@@ -10,6 +10,10 @@ const SearchBar = () => {
   const [searchString, setSearchString] = useState('');
   const [filteredRecipes, setFilteredRecipes] = store.desiredRecipes;
 
+  const handleSearchClick = (event) => {
+    console.log('You clicked search!');
+  };
+
   return (
     <div className='d-flex'>
       <input
@@ -21,7 +25,11 @@ const SearchBar = () => {
         onChange={(event) => setSearchString(event.target.value)}
       />
 
-      <MDBIcon className='mr-auto grey-text align-self-center' icon='search' />
+      <MDBIcon
+        className='mr-auto grey-text align-self-center'
+        icon='search'
+        onClick={handleSearchClick}
+      />
     </div>
   );
 };
