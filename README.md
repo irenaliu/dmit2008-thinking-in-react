@@ -14,6 +14,8 @@ Thinking about how the concepts of the React library can be applied to create a 
 
 ## Component Hierarchy / Pages
 
+The following images are screenshots taken from the actual live website which I do not own. In my static mockup version of this app, I have chosen to focus on the main landing page for this study.
+
 ![Blog landing page (top)](/mockups/home.jpg)
 ![Blog landing page (bottom)](/mockups/footer.jpg)
 
@@ -60,6 +62,8 @@ Thinking about how the concepts of the React library can be applied to create a 
 - Contact
 
 ## Minimal Representation of State
+
+For this blog site, the only piece of data that would likely need to be stateful is the recipe data that is returned in a recipe search. The state should live in the global app store so that it is easiest to grab the filtered data to render RecipeOverview cards when the user is redirected to the SearchResults page.
 
 ## Potential Required Packages/Libraries/Components
 
